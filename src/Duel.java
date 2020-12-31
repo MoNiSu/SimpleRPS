@@ -1,5 +1,5 @@
 public class Duel {
-  public static String Duel(int playerRps, int comRps) {
+  public static String Fight(int playerRps, int comRps) {
     switch (playerRps - comRps) {
     case 0:
       return "Draw";

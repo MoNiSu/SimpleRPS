@@ -41,7 +41,7 @@ public class MakeButton extends JButton {
         comLabel.setText("Scissors");
         break;
       }
-      statusLabel.setText(Duel.Duel(num, comRps));
+      statusLabel.setText(Duel.Fight(num, comRps));
     });
   }
 
